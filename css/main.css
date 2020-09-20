@@ -1,0 +1,113 @@
+:root {
+  --main-dark-color: #443118;
+  --main-light-color: #ffe9b9;
+}
+
+body {
+  font: 400 18px/1.2 "Roboto";
+  background-color: var(--main-light-color);
+  padding-top: 5vh;
+  color: var(--main-dark-color);
+}
+.main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.header__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+.header__avatar {
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 3px solid var(--main-dark-color);
+  margin-right: 3%;
+}
+.header__info-container {
+  width: 45%;
+}
+.header__title {
+  font-size: 50px;
+}
+.header__title::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: var(--main-dark-color);
+}
+.header__nav-list {
+  padding-top: 20px;
+}
+.header__nav-list > li {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--main-dark-color);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.header__nav-list > li:last-of-type {
+  margin-bottom: 0;
+}
+.header__nav-list > li:hover {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
+
+.header__nav-link {
+  display: block;
+  text-decoration: none;
+  line-height: 40px;
+  color: inherit;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.section__container {
+  margin-bottom: 30px;
+}
+.section__title {
+  font-size: 32px;
+
+  margin-bottom: 20px;
+}
+.section__title::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background-color: var(--main-dark-color);
+}
+.contact__item {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.contact__item:last-of-type {
+  margin-bottom: 0;
+}
+.contact__item > span {
+  font-style: normal;
+}
+.summary__text {
+  line-height: 1.3;
+}
+.section__list {
+  list-style-type: square;
+  padding-left: 19px;
+}
+.section__list > li {
+  margin-bottom: 5px;
+}
+.section__list > li:last-of-type {
+  margin-bottom: 0;
+}
+.education__item--light {
+  display: block;
+  font-style: italic;
+}
+.languages__item--light {
+  font-style: italic;
+}
