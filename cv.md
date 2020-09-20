@@ -30,6 +30,6 @@ My goal is to work on fascinating projects, to deepen my knowledge and constantl
 ***
 
 ## Languages 
-1. **English** _A2 
-2. **Russian** _Native 
-3. **Ukrainian** _Native
+1. **English** *A2* 
+2. **Russian** *Native* 
+3. **Ukrainian** *Native*
