@@ -22,3 +22,14 @@ My goal is to work on fascinating projects, to deepen my knowledge and constantl
 - **Node.js** 
 
 ***
+
+## Education
+1. **KYIV NATIONAL UNIVERSITY OF TRANDING AND ECONOMICS** 
+  - Bachelor’s degree of marketing 
+
+***
+
+## Languages 
+1. **English** _A2 
+2. **Russian** _Native 
+3. **Ukrainian** _Native
